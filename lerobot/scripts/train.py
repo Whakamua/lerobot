@@ -21,7 +21,7 @@ from typing import Any
 
 import torch
 from termcolor import colored
-from torch.amp import GradScaler
+from torch.cuda.amp import GradScaler
 from torch.optim import Optimizer
 
 from lerobot.common.datasets.factory import make_dataset
